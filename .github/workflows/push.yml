@@ -3,7 +3,7 @@ name: Build and push image
 on:
   push:
     branches: main
-  workspace_dispatch:
+  workflow_dispatch:
 
 env:
   IMAGE_NAME: caddy-security-cloudflare
