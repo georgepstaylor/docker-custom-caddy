@@ -26,7 +26,7 @@ jobs:
         with:
           images: ${{ env.IMAGE_NAME }}
       - name: Build and push Docker image
-        uses: docker/build-push-action@b3eddbb94c4146a0988a620b01720afe50639271
+        uses: docker/build-push-action@eb539f44b153603ccbfbd98e2ab9d4d0dcaf23a4
         with:
           context: .
           file: ./Dockerfile
